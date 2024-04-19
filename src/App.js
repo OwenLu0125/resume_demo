@@ -3,6 +3,7 @@ import Header from './component/Header'
 import Introduction from './component/Introduction'
 import Feature from './component/Feature'
 import Skill from './component/Skill'
+import Portfolio from './component/Portfolio'
 
 const App = () => {
   return (
@@ -11,14 +12,8 @@ const App = () => {
       <main>
         <Introduction />
         <Feature />
-        <Skill/>
-        <section class="portfolio">
-          <img src="/images/portfolio/1.png" alt="portfolio1" width="320" height="320" />
-          <img src="/images/portfolio/2.png" alt="portfolio2" width="320" height="320" />
-          <img src="/images/portfolio/3.png" alt="portfolio3" width="320" height="320" />
-          <img src="/images/portfolio/1.png" alt="portfolio4" width="320" height="320" />
-          <img src="/images/portfolio/2.png" alt="portfolio5" width="320" height="320" />
-        </section>
+        <Skill />
+        <Portfolio />
         <section class="information">
           <p class="slogan">跟著我一起打造你的專屬網頁</p>
           <a href="mailto:Amber0332@gmail.com" class="mail">Amber0332@gmail.com</a>
