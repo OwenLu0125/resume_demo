@@ -1,53 +1,15 @@
 import './App.css';
 import Header from './component/Header'
 import Introduction from './component/Introduction'
-function App() {
+import Feature from './component/Feature'
+
+const App = () => {
   return (
     <>
       <Header />
       <main>
         <Introduction />
-        <section class="feature">
-          <div class="gradient-icon">
-            <img src="/images/icon/zap-fast.svg" alt="zap-fast" />
-          </div>
-          <h3 class="feature-title">打造你的專屬網站</h3>
-          <p class="feature-discription">只要是你任何想到的 跟著一起打造設計UI介面以及你專屬的網站</p>
-          <div class="feature-item">
-            <div class="feature-card">
-              <p class="digital">400 +</p>
-              <h4 class="digital-content">已合作多家廠商</h4>
-              <a href="/test" class="link-icon">
-                了解更多
-                <img src="/images/icon/arrow-right.svg" alt="arrow-right" />
-              </a>
-            </div>
-            <div class="feature-card">
-              <p class="digital">600 %</p>
-              <h4 class="digital-content">投資報酬率</h4>
-              <a href="/test" class="link-icon">
-                了解更多
-                <img src="/images/icon/arrow-right.svg" alt="arrow-right" />
-              </a>
-            </div>
-            <div class="feature-card">
-              <p class="digital">10 k</p>
-              <h4 class="digital-content">已合作多家廠商</h4>
-              <a href="/test" class="link-icon">
-                了解更多
-                <img src="/images/icon/arrow-right.svg" alt="arrow-right" />
-              </a>
-            </div>
-            <div class="feature-card">
-              <p class="digital">400 +</p>
-              <h4 class="digital-content">滿星好評</h4>
-              <a href="/test" class="link-icon">
-                了解更多
-                <img src="/images/icon/arrow-right.svg" alt="arrow-right" />
-              </a>
-            </div>
-          </div>
-        </section>
+        <Feature />
         <section class="skill">
           <div>
             <h2 class="skill-title">網站改版設計</h2>
