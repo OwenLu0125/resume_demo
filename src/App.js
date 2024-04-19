@@ -1,27 +1,12 @@
 import './App.css';
 import Header from './component/Header'
-
+import Introduction from './component/Introduction'
 function App() {
   return (
     <>
       <Header />
       <main>
-        <section class="introduction">
-          <div>
-            <h1>Hi 我是呂沛騏</h1>
-            <p class="introduce">我是位UI設計 也是對設計愛好者，致力於打造具有吸引力與易用性的界面設計以及追求使用者體驗的完美平衡</p>
-            <div class="link-item">
-              <a href="/test" class="w-180 link link-border">履歷</a>
-              <a href="/test" class="w-180 link link-icon link-gradient">
-                聯繫我
-                <img src="/images/icon/chat-bubble-outline.svg" alt="chat-bubble-outline" />
-              </a>
-            </div>
-          </div>
-          <div>
-            <img src="/images/avatar.png" alt="呂沛騏頭貼" />
-          </div>
-        </section>
+        <Introduction />
         <section class="feature">
           <div class="gradient-icon">
             <img src="/images/icon/zap-fast.svg" alt="zap-fast" />
