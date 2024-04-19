@@ -1,25 +1,10 @@
 import './App.css';
+import Header from './component/Header'
 
 function App() {
   return (
     <>
-      <header>
-        <nav>
-          <a href="/test" class="link link-icon">
-            作品集
-            <img src="/images/icon/chevron-down.svg" alt="chevron-down" />
-          </a>
-          <a href="/test" class="link link-icon">
-            關於我
-            <img src="/images/icon/chevron-down.svg" alt="chevron-down" />
-          </a>
-          <a href="/test" class="link link-icon">
-            工作經驗
-            <img src="/images/icon/chevron-down.svg" alt="chevron-down" />
-          </a>
-          <a href="/test" class="link link-border">聯絡我</a>
-        </nav>
-      </header>
+      <Header />
       <main>
         <section class="introduction">
           <div>
