@@ -1,0 +1,243 @@
+header,
+main {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+}
+
+footer {
+  background: linear-gradient(to right, #ff2ac3, #5000ff);
+  color: #d6bbfb;
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 0;
+}
+
+section {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.link {
+  padding: 10px 24px;
+  text-wrap: nowrap;
+}
+
+.link-icon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.link-border {
+  display: flex;
+  justify-content: center;
+  border: solid 1px #fb46cb;
+  color: #fb46cb;
+  border-radius: 99px;
+}
+
+.introduction {
+  display: flex;
+  align-items: center;
+}
+
+.introduction > div {
+  flex: 1;
+}
+
+.introduce {
+  font-size: 24px;
+  margin-bottom: 28px;
+}
+
+.link-item {
+  display: flex;
+  gap: 24px;
+}
+
+.w-180 {
+  width: 180px;
+}
+
+.link-gradient {
+  justify-content: center;
+  border-radius: 99px;
+  background: linear-gradient(to right, #ff2ac3, #5000ff);
+}
+
+.feature {
+  margin: 60px auto;
+}
+
+.gradient-icon {
+  margin-left: auto;
+  margin-right: auto;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 99px;
+  background: linear-gradient(to right, #ff2ac3, #5000ff);
+}
+
+.feature-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.feature-discription {
+  text-align: center;
+}
+
+.feature-item {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 24px;
+}
+
+.feature-card {
+  border-left: solid 1px white;
+  padding: 0 24px;
+}
+
+.digital {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.digital-content {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  margin: 60px auto;
+}
+
+.skill > div {
+  flex: 1;
+}
+
+.skill-title {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.skill-content {
+  margin: 20px 0;
+}
+
+.portfolio {
+  max-width: 100%;
+  display: flex;
+  gap: 24px;
+  overflow: hidden;
+}
+
+.information {
+  max-width: 100%;
+  height: 400px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-image: url('/public/images/mail-banner.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.slogan {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.mail {
+  font-size: 28px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.contact > div {
+  flex: 1;
+}
+
+.contact-form {
+  margin: 0 80px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.row {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.row > div {
+  flex: 1;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-field {
+  border-radius: 0.5rem;
+  padding: 8px 0;
+}
+
+.text-field:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.link-gradient-square {
+  text-align: center;
+  padding: 8px 0;
+  border-radius: 0.5rem;
+  background: linear-gradient(to right, #ff2ac3, #5000ff);
+}
+
+.footer-box {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0;
+}
+
+.brand {
+  display: flex;
+  gap: 20px;
+}
