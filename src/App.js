@@ -2,6 +2,7 @@ import './App.css';
 import Header from './component/Header'
 import Introduction from './component/Introduction'
 import Feature from './component/Feature'
+import Skill from './component/Skill'
 
 const App = () => {
   return (
@@ -10,19 +11,7 @@ const App = () => {
       <main>
         <Introduction />
         <Feature />
-        <section class="skill">
-          <div>
-            <h2 class="skill-title">網站改版設計</h2>
-            <p class="skill-content">致力於幫助您重新改版 提高網站的易用性，吸引更多的訪客並轉化為潛在客戶。我們也希望強化品牌形象，使網站與我們公司的價值觀和使命更加一致。</p>
-            <a href="/test" class="w-180 link link-icon link-border">
-              <img src="/images/icon/chat-bubble-solid.svg" alt="chat-bubble-solid" />
-              了解更多
-            </a>
-          </div>
-          <div>
-            <img src="/images/mac-air.png" alt="mac-air" />
-          </div>
-        </section>
+        <Skill/>
         <section class="portfolio">
           <img src="/images/portfolio/1.png" alt="portfolio1" width="320" height="320" />
           <img src="/images/portfolio/2.png" alt="portfolio2" width="320" height="320" />
