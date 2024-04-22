@@ -5,6 +5,7 @@ import Feature from './component/Feature';
 import Skill from './component/Skill';
 import Portfolio from './component/Portfolio';
 import Information from './component/Information';
+import Contact from './component/Contact';
 
 const App = () => {
   return (
@@ -16,43 +17,10 @@ const App = () => {
         <Skill />
         <Portfolio />
         <Information />
-        <section class="contact">
-          <div>
-            <img src="/images/contact.png" alt="contact" />
-          </div>
-          <div class="contact-form">
-            <div class="row">
-              <div class="column">
-                <label for="">姓氏</label>
-                <input type="text" class="text-field" />
-              </div>
-              <div class="column">
-                <label for="">名字</label>
-                <input type="text" class="text-field" />
-              </div>
-            </div>
-            <div class="column">
-              <label for="">Email 信件</label>
-              <input type="text" class="text-field" />
-            </div>
-            <div class="column">
-              <label for="">手機號碼</label>
-              <input type="text" class="text-field" />
-            </div>
-            <div class="column">
-              <label for="">訊息</label>
-              <textarea name="" id="" cols="30" rows="10" class="text-field"></textarea>
-            </div>
-            <div class="row">
-              <input type="checkbox" name="" id="" />
-              <label for="">你是否同意我們的條款</label>
-            </div>
-            <a href="/test" class="link-gradient-square">聯繫我</a>
-          </div>
-        </section>
+        <Contact />
       </main>
     </>
   );
-}
+};
 
 export default App;
