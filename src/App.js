@@ -1,9 +1,10 @@
 import './App.css';
-import Header from './component/Header'
-import Introduction from './component/Introduction'
-import Feature from './component/Feature'
-import Skill from './component/Skill'
-import Portfolio from './component/Portfolio'
+import Header from './component/Header';
+import Introduction from './component/Introduction';
+import Feature from './component/Feature';
+import Skill from './component/Skill';
+import Portfolio from './component/Portfolio';
+import Information from './component/Information';
 
 const App = () => {
   return (
@@ -14,10 +15,7 @@ const App = () => {
         <Feature />
         <Skill />
         <Portfolio />
-        <section class="information">
-          <p class="slogan">跟著我一起打造你的專屬網頁</p>
-          <a href="mailto:Amber0332@gmail.com" class="mail">Amber0332@gmail.com</a>
-        </section>
+        <Information />
         <section class="contact">
           <div>
             <img src="/images/contact.png" alt="contact" />
