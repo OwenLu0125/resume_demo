@@ -6,19 +6,26 @@ import Skill from './component/Skill';
 import Portfolio from './component/Portfolio';
 import Information from './component/Information';
 import Contact from './component/Contact';
+import styled from 'styled-components';
+
+const Main = styled.main`
+  background-color: black;
+  color: white;
+  font-size: 18px;
+`;
 
 const App = () => {
   return (
     <>
       <Header />
-      <main>
+      <Main>
         <Introduction />
         <Feature />
         <Skill />
         <Portfolio />
         <Information />
         <Contact />
-      </main>
+      </Main>
     </>
   );
 };
