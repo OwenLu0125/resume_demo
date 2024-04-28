@@ -22,6 +22,16 @@ const StyledLink = styled.a`
   gap: 8px;
 `;
 
+const StyledLinkBorder = styled.a`
+  padding: 10px 24px;
+  text-wrap: nowrap;
+  display: flex;
+  justify-content: center;
+  border: solid 1px #fb46cb;
+  color: #fb46cb;
+  border-radius: 99px;
+`;
+
 const Header = () => {
   return (
     <>
@@ -39,9 +49,9 @@ const Header = () => {
             工作經驗
             <img src='/images/icon/chevron-down.svg' alt='chevron-down' />
           </StyledLink>
-          <StyledLink href='#' class='link link-border'>
+          <StyledLinkBorder href='#' class='link link-border'>
             聯絡我
-          </StyledLink>
+          </StyledLinkBorder>
         </StyledNav>
       </StyledHeader>
     </>
