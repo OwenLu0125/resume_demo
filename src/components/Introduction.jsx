@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledSection = styled.section`
+  display: flex;
+  align-items: center;
   max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
@@ -43,11 +45,15 @@ const StyledLinkIcon = styled.a`
   background: linear-gradient(to right, #ff2ac3, #5000ff);
 `;
 
+const IntroductionInnerDiv = styled.div`
+  flex: 1;
+`;
+
 const Introduction = () => {
   return (
     <>
       <StyledSection>
-        <div>
+        <IntroductionInnerDiv>
           <StyledH1>Hi 我是呂沛騏</StyledH1>
           <StyledIntroduce>
             我是位UI設計
@@ -63,7 +69,7 @@ const Introduction = () => {
               />
             </StyledLinkIcon>
           </StyledLinkItem>
-        </div>
+        </IntroductionInnerDiv>
         <div>
           <img src='/images/avatar.png' alt='呂沛騏頭貼' />
         </div>
