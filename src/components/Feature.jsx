@@ -42,6 +42,22 @@ const StyledFeatureCard = styled.div`
   padding: 0 24px;
 `;
 
+const StyledDigital = styled.p`
+  font-size: 28px;
+  font-weight: 600;
+`;
+
+const StyledH4 = styled.h4`
+  font-size: 20px;
+  font-weight: 500;
+`;
+
+const StyledLinkIcon = styled.a`
+  display: flex;
+  align-items: center;
+  gap: 8px;
+`;
+
 const Feature = () => {
   return (
     <StyledSection>
@@ -54,36 +70,36 @@ const Feature = () => {
       </StyledP>
       <StyledFeatureItem>
         <StyledFeatureCard>
-          <p class='digital'>400 +</p>
-          <h4 class='digital-content'>已合作多家廠商</h4>
-          <a href='#' class='link-icon'>
+          <StyledDigital>400 +</StyledDigital>
+          <StyledH4>已合作多家廠商</StyledH4>
+          <StyledLinkIcon href='#'>
             了解更多
             <img src='/images/icon/arrow-right.svg' alt='arrow-right' />
-          </a>
+          </StyledLinkIcon>
         </StyledFeatureCard>
         <StyledFeatureCard>
-          <p class='digital'>600 %</p>
-          <h4 class='digital-content'>投資報酬率</h4>
-          <a href='#' class='link-icon'>
+          <StyledDigital>600 %</StyledDigital>
+          <StyledH4>投資報酬率</StyledH4>
+          <StyledLinkIcon href='#'>
             了解更多
             <img src='/images/icon/arrow-right.svg' alt='arrow-right' />
-          </a>
+          </StyledLinkIcon>
         </StyledFeatureCard>
         <StyledFeatureCard>
-          <p class='digital'>10 k</p>
-          <h4 class='digital-content'>已合作多家廠商</h4>
-          <a href='#' class='link-icon'>
+          <StyledDigital>10 k</StyledDigital>
+          <StyledH4>已合作多家廠商</StyledH4>
+          <StyledLinkIcon href='#'>
             了解更多
             <img src='/images/icon/arrow-right.svg' alt='arrow-right' />
-          </a>
+          </StyledLinkIcon>
         </StyledFeatureCard>
         <StyledFeatureCard>
-          <p class='digital'>400 +</p>
-          <h4 class='digital-content'>滿星好評</h4>
-          <a href='#' class='link-icon'>
+          <StyledDigital>400 +</StyledDigital>
+          <StyledH4>滿星好評</StyledH4>
+          <StyledLinkIcon href='#'>
             了解更多
             <img src='/images/icon/arrow-right.svg' alt='arrow-right' />
-          </a>
+          </StyledLinkIcon>
         </StyledFeatureCard>
       </StyledFeatureItem>
     </StyledSection>
