@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import Header from './components/Header'
 import Introduction from './components/Introduction'
 import Feature from './components/Feature'
+import Skill from './components/Skill'
 
 const StyledMain = styled.main`
   background-color: black;
@@ -16,6 +17,7 @@ function App() {
       <StyledMain>
         <Introduction />
         <Feature />
+        <Skill />
       </StyledMain>
     </>
   );
