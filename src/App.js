@@ -5,6 +5,7 @@ import Feature from './components/Feature'
 import Skill from './components/Skill'
 import Portfolio from './components/Portfolio'
 import Information from './components/Information'
+import Contact from './components/Contact'
 
 const StyledMain = styled.main`
   background-color: black;
@@ -22,6 +23,7 @@ function App() {
         <Skill />
         <Portfolio />
         <Information />
+        <Contact />
       </StyledMain>
     </>
   );
