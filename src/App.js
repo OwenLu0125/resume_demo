@@ -6,6 +6,8 @@ import Skill from './components/Skill'
 import Portfolio from './components/Portfolio'
 import Information from './components/Information'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
+
 
 const StyledMain = styled.main`
   background-color: black;
@@ -24,6 +26,7 @@ function App() {
         <Portfolio />
         <Information />
         <Contact />
+        <Footer />
       </StyledMain>
     </>
   );
